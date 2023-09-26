@@ -28,6 +28,7 @@ from image.get_image_from_pdf import read_PDF
 from image.photo_capture import capture_image
 from mongodb.store import store
 from utili.alignment import combine_smiles_label
+from utili.convert_smiles_string_to_image import convert_string_to_structure
 from utili.ocr import *
 from utili.osra import *
 from utili.pubchem import pubchem
@@ -91,7 +92,12 @@ def add_structures(result, label_smiles):
                                 random_file_capture_image_path = config.get('file', 'image_out_dir') + str(uuid.uuid4()) + '.png'
                                 capture_image(delete_label_smile, random_file_capture_image_path)
 
-                                mongo_id = store(config, random_file_capture_image_path)
+                                mongo_capture_image_id = store(config, random_file_capture_image_path)
+
+                                remake_file_path = config.get('file', 'remake_smile_image_dir') + str(uuid.uuid4()) + '.png'
+                                convert_string_to_structure(delete_label_smile[0], remake_file_path)
+
+                                mongo_remake_image_id = store(config, random_file_capture_image_path)
 
                                 smiles.append({'alter_name': delete_label_smile[6],
                                                'alter_name_confidence': delete_label_smile[7],
@@ -101,7 +107,9 @@ def add_structures(result, label_smiles):
                                                'alter_smiles_confidence': delete_label_smile[3],
                                                'pubchem_smiles_check': pubchem_smile,
                                                'sub_image_path': random_file_capture_image_path,
-                                               'sub_image_id_mongodb': str(mongo_id)})
+                                               'openbabel_image_path': random_file_capture_image_path,
+                                               'sub_image_id_mongodb': str(mongo_capture_image_id),
+                                               'openbabel_image_id_mongodb': str(mongo_remake_image_id)})
 
                                 # label_smiles.remove(delete_label_smile)
 

@@ -4,7 +4,7 @@ def runOsraSmiles(inputPath, outputPath, outputName, inputName):
     subprocess.call(
         ['docker', 'container', 'run', '--rm', '--volume', inputPath + ':/input',
          '--volume', outputPath + ':/output',
-         'daverona/osra', 'osra', '-c', '-p', '--write', '/output/' + outputName, '/input/' + inputName])
+         'daverona/osra', 'osra', '--learn' ,'-c', '-p', '--write', '/output/' + outputName, '/input/' + inputName])
     f = open(outputPath + "/" + outputName, "r")
     return f.readlines()
 
@@ -37,4 +37,5 @@ def get_smiles(coordinates):
 
 if __name__ == '__main__':
     result = runOsraSmiles(inputPath='/Users/luoyu/PycharmProjects/chemwork/image/in', outputPath='/Users/luoyu/PycharmProjects/chemwork/image/smiles', outputName='2.smi', inputName='2.png')
-    print(get_smiles(result))
+    for i in result:
+        print(i)

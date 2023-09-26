@@ -34,5 +34,5 @@ def combine_smiles_label(osra, ocr, overlap, image_path):
 
     # [smile, smile_x_coor, smile_y_coor, smile_confidence, label_x_coor, label_y_coor, label, label_confidence, image_path]
     # ['Cn1c2cccc3c2[Co]2c4c1cccc4oc1c2c(o3)ccc1', [183, 625], [1, 508], 4.07015, [276, 316], [252, 282], '16', 0.9146661332719246, 'False' , '/image']
-
+    # ** convert smiles string to structure again and then present all of them***
     return osra

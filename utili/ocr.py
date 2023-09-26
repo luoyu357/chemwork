@@ -223,4 +223,5 @@ if __name__ == '__main__':
 
     final = combine_separated_label_ocr(unique)
 
-    print(final)
+    for i in final:
+        print(i)
