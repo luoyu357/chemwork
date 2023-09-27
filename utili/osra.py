@@ -4,7 +4,7 @@ def runOsraSmiles(inputPath, outputPath, outputName, inputName):
     subprocess.call(
         ['docker', 'container', 'run', '--rm', '--volume', inputPath + ':/input',
          '--volume', outputPath + ':/output',
-         'daverona/osra', 'osra', '--learn' ,'-c', '-p', '--write', '/output/' + outputName, '/input/' + inputName])
+         'daverona/osra', 'osra','-c', '-p', '--write', '/output/' + outputName, '/input/' + inputName])
     f = open(outputPath + "/" + outputName, "r")
     return f.readlines()
 

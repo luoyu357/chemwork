@@ -97,7 +97,7 @@ def add_structures(result, label_smiles):
                                 remake_file_path = config.get('file', 'remake_smile_image_dir') + str(uuid.uuid4()) + '.png'
                                 convert_string_to_structure(delete_label_smile[0], remake_file_path)
 
-                                mongo_remake_image_id = store(config, random_file_capture_image_path)
+                                mongo_remake_image_id = store(config, remake_file_path)
 
                                 smiles.append({'alter_name': delete_label_smile[6],
                                                'alter_name_confidence': delete_label_smile[7],
@@ -107,7 +107,7 @@ def add_structures(result, label_smiles):
                                                'alter_smiles_confidence': delete_label_smile[3],
                                                'pubchem_smiles_check': pubchem_smile,
                                                'sub_image_path': random_file_capture_image_path,
-                                               'openbabel_image_path': random_file_capture_image_path,
+                                               'openbabel_image_path': remake_file_path,
                                                'sub_image_id_mongodb': str(mongo_capture_image_id),
                                                'openbabel_image_id_mongodb': str(mongo_remake_image_id)})
 
