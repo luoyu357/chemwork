@@ -34,8 +34,10 @@ def get_smiles(coordinates):
         # ['c1cc2ccc3c4c2c(c1)c1cccc2c1[Co]4c1c(o3)cccc1o2', [0, 446], [0, 564], 3.1]
     return output
 
-
+'''
 if __name__ == '__main__':
     result = runOsraSmiles(inputPath='/Users/luoyu/PycharmProjects/chemwork/image/in', outputPath='/Users/luoyu/PycharmProjects/chemwork/image/smiles', outputName='2.smi', inputName='2.png')
     for i in result:
         print(i)
+
+'''

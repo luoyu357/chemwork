@@ -89,12 +89,13 @@ def add_structures(result, label_smiles):
                                 pubchem_name_label = smile_name_checker.searchCompoundName(delete_label_smile[6])
                                 pubchem_smile = smile_name_checker.searchCompoundSmiles(delete_label_smile[0])
 
-                                random_file_capture_image_path = config.get('file', 'image_out_dir') + str(uuid.uuid4()) + '.png'
+                                temp_name = str(uuid.uuid4()) + '.png'
+                                random_file_capture_image_path = config.get('file', 'image_out_dir') + temp_name
                                 capture_image(delete_label_smile, random_file_capture_image_path)
 
                                 mongo_capture_image_id = store(config, random_file_capture_image_path)
 
-                                remake_file_path = config.get('file', 'remake_smile_image_dir') + str(uuid.uuid4()) + '.png'
+                                remake_file_path = config.get('file', 'remake_smile_image_dir') + temp_name
                                 convert_string_to_structure(delete_label_smile[0], remake_file_path)
 
                                 mongo_remake_image_id = store(config, remake_file_path)
@@ -125,7 +126,7 @@ def add_structures(result, label_smiles):
     return result
 
 
-def process(collection_name, config):
+def process(collection, config):
     for path in pathlib.Path(config.get("file", "input_dir")).iterdir():
         if path.is_file() and not path.stem.startswith('.'):
             f_name = path.stem
@@ -142,7 +143,7 @@ def process(collection_name, config):
                 # download images from the pdf
                 pdf_path = config.get('file', 'pdf_dir') + f_name + '.pdf'
                 image_in_path = config.get('file', 'image_in_dir')
-                #read_PDF(pdf_path, image_in_path)
+                read_PDF(pdf_path, image_in_path)
 
                 # read image and smiles
                 final_result = []

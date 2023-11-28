@@ -37,6 +37,8 @@ def read_PDF(filePath, outputPath):
             image_file.write(image_bytes)
             image_file.close()
 
+'''
 if __name__ == '__main__':
     read_PDF(
         '../data/pdf/acs.joc.8b02978.pdf', './in/')
+'''

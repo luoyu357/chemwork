@@ -12,4 +12,4 @@ def convert_string_to_structure(smile_string, file_path):
     result = subprocess.run(cmd, capture_output=True, text=True)
 
 
-#convert_string_to_structure('CC1(C)c2cccc3c2[Co]2c4c1cccc4Oc1c2c(O3)ccc1', '/Users/luoyu/PycharmProjects/chemwork/image/remake/'+str(uuid.uuid4())+'.png')
+# convert_string_to_structure('CN1C2=[C-]C(=CC=C2)N(C3=[C-]C(=CC=C3)OC4=CC=CC1=[C-]4)C.[Co+3]', '/Users/luoyu/PycharmProjects/chemwork/image/remake/TEST.png')

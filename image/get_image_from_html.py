@@ -23,7 +23,7 @@ def is_valid_image_url(url):
 
     return False
 
-
+'''
 for path in pathlib.Path('/Users/luoyu/PycharmProjects/chemwork/data/html/').iterdir():
     if path.is_file() and not path.stem.startswith('.'):
 
@@ -54,5 +54,7 @@ for path in pathlib.Path('/Users/luoyu/PycharmProjects/chemwork/data/html/').ite
                             print(f"{temp} is valid.")
 
         print("------------------")
+        
+'''
 
 

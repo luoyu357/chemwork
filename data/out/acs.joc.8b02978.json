@@ -1,1 +1,558 @@
-[{"biblio": {"doi": "10.1021/acs.joc.8b02978", "published_date": "2019-01-29T00:00:00"}, "records": [{"names": ["CDOTA +"], "electrochemical_potentials": [{"value": "\u20130.299", "type": "Ered"}], "smiles": [{"alter_name": "CDOTA+", "alter_name_confidence": 0.912600040435791, "alter_name_not_original": "True", "pubchem_name_check": [], "alter_smiles": "CC1(C)c2cccc3c2[Co]2c4c1cccc4Oc1c2c(O3)ccc1", "alter_smiles_confidence": 3.48556, "pubchem_smiles_check": [{"formula": null, "smiles": "CC1(C2=[C-]C(=CC=C2)OC3=[C-]C(=CC=C3)OC4=CC=CC1=[C-]4)C.[Co+3]"}], "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/49a5987f-6dca-42be-81fb-b1f2322d3c13.png", "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/7a4b88c7-75d7-4bf6-a60f-519d8770cdf3.png", "sub_image_id_mongodb": "651462ee69298ec0915f6d07", "openbabel_image_id_mongodb": "651462ef69298ec0915f6d09"}]}, {"names": ["ADOTA + b"], "electrochemical_potentials": [{"value": "1.814", "type": "Eox"}, {"value": "\u20130.559", "type": "Ered"}], "smiles": [{"alter_name": "ADOTA+(ADOTA*)", "alter_name_confidence": 0.9450149536132812, "alter_name_not_original": "True", "pubchem_name_check": [], "alter_smiles": "Cn1c2cccc3c2[Co]2c4c1cccc4oc1c2c(o3)ccc1", "alter_smiles_confidence": 4.07015, "pubchem_smiles_check": [{"formula": null, "smiles": "CN1C2=[C-]C(=CC=C2)OC3=[C-]C(=CC=C3)OC4=CC=CC1=[C-]4.[Co+3]"}], "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/de8fe7cd-9e67-46dd-a240-b4c8cae65134.png", "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/34400526-dc77-4180-8fc9-5553988f44f6.png", "sub_image_id_mongodb": "651462f669298ec0915f6d0b", "openbabel_image_id_mongodb": "651462f769298ec0915f6d0d"}]}, {"names": ["DAOTA + b"], "electrochemical_potentials": [{"value": "1.108", "type": "Eox"}, {"value": "1.443", "type": "Eox"}, {"value": "\u20130.958", "type": "Ered"}], "smiles": [{"alter_name": "DAOTA*", "alter_name_confidence": 0.9654059410095215, "alter_name_not_original": "False", "pubchem_name_check": [], "alter_smiles": "Cn1c2cccc3c2[Co]2c4c1cccc4n(c1c2c(o3)ccc1)C", "alter_smiles_confidence": 3.25446, "pubchem_smiles_check": [{"formula": null, "smiles": "CN1C2=[C-]C(=CC=C2)N(C3=[C-]C(=CC=C3)OC4=CC=CC1=[C-]4)C.[Co+3]"}], "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/de171535-9dde-4a88-9ddc-c737468df8bc.png", "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/ddecbfb8-6c5c-4592-8c5a-9dda93c5ac85.png", "sub_image_id_mongodb": "651462fd69298ec0915f6d0f", "openbabel_image_id_mongodb": "651462fd69298ec0915f6d11"}]}, {"names": ["CDOTA + b"], "uvvis_spectra": [{"solvent": "CH2Cl2", "apparatus": "PerkinElmer Lambda 1050 UV", "peaks": [{"value": "535", "units": "nm"}]}], "quantum_yields": [{"value": "0.54", "solvent": "CH2Cl2", "type": "\u03a6f"}], "fluorescence_lifetimes": [{"value": "23.1", "units": "ns", "solvent": "CH2Cl2"}], "smiles": [{"alter_name": "CDOTA+", "alter_name_confidence": 0.912600040435791, "alter_name_not_original": "True", "pubchem_name_check": [], "alter_smiles": "CC1(C)c2cccc3c2[Co]2c4c1cccc4Oc1c2c(O3)ccc1", "alter_smiles_confidence": 3.48556, "pubchem_smiles_check": [{"formula": null, "smiles": "CC1(C2=[C-]C(=CC=C2)OC3=[C-]C(=CC=C3)OC4=CC=CC1=[C-]4)C.[Co+3]"}], "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/62f7f569-5d3e-411e-a101-9e5037c14841.png", "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/1a4987d5-5f02-438c-9bdf-26376747fd7c.png", "sub_image_id_mongodb": "6514630369298ec0915f6d13", "openbabel_image_id_mongodb": "6514630469298ec0915f6d15"}]}, {"names": ["CDATA + b"], "uvvis_spectra": [{"solvent": "CH2Cl2", "apparatus": "PerkinElmer Lambda 1050 UV", "peaks": [{"value": "603", "units": "nm"}]}], "quantum_yields": [{"value": "0.61", "solvent": "CH2Cl2", "type": "\u03a6f"}], "fluorescence_lifetimes": [{"value": "15.8", "units": "ns", "solvent": "CH2Cl2"}], "smiles": [{"alter_name": "CDATA+", "alter_name_confidence": 0.9486436771513951, "alter_name_not_original": "True", "pubchem_name_check": [], "alter_smiles": "CN1c2cccc3c2[Co]2c4c1cccc4C(c1c2c(N3C)ccc1)(C)C", "alter_smiles_confidence": 3.242, "pubchem_smiles_check": [{"formula": null, "smiles": "CC1(C2=[C-]C(=CC=C2)N(C3=[C-]C(=CC=C3)N(C4=CC=CC1=[C-]4)C)C)C.[Co+3]"}], "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/e8c411ac-50c9-448f-bdf0-0e4751cbbd0a.png", "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/a867b540-b9ab-4bc7-a09b-3d2723ecf4d6.png", "sub_image_id_mongodb": "6514630a69298ec0915f6d17", "openbabel_image_id_mongodb": "6514630a69298ec0915f6d19"}]}, {"names": ["4 ( BDOTA + )"], "uvvis_spectra": [{"solvent": "CH2Cl2", "apparatus": "PerkinElmer Lambda 1050 UV", "peaks": [{"value": "578", "units": "nm"}]}], "quantum_yields": [{"value": "0.78", "solvent": "CH2Cl2", "type": "\u03a6f"}], "fluorescence_lifetimes": [{"value": "20.2", "units": "ns", "solvent": "CH2Cl2"}], "electrochemical_potentials": [{"value": "2.060", "type": "Eox"}, {"value": "\u20130.226", "type": "Ered"}, {"value": "\u20131.233", "type": "Ered"}], "smiles": [{"alter_name": "BDOTA+", "alter_name_confidence": 0.9470908641815186, "alter_name_not_original": "False", "pubchem_name_check": [], "alter_smiles": "c1cc2ccc3c4c2c(c1)c1cccc2c1[Co]4c1c(o3)cccc1o2", "alter_smiles_confidence": 3.27661, "pubchem_smiles_check": [{"formula": null, "smiles": "C1=CC2=C3[C-]=C(C=C2)OC4=CC=CC(=[C-]4)OC5=CC=CC(=[C-]5)C3=C1.[Co+3]"}], "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/fa81af61-ca5d-4e2f-b9d9-4f0fa178aeae.png", "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/4868122a-8849-4ead-bd54-de4d837a9058.png", "sub_image_id_mongodb": "6514631369298ec0915f6d1b", "openbabel_image_id_mongodb": "6514631469298ec0915f6d1d"}]}, {"names": ["14 ( BDATA + )"], "uvvis_spectra": [{"solvent": "CH2Cl2", "apparatus": "PerkinElmer Lambda 1050 UV", "peaks": [{"value": "625", "units": "nm"}]}], "quantum_yields": [{"value": "0.30", "solvent": "CH2Cl2", "type": "\u03a6f"}], "fluorescence_lifetimes": [{"value": "12.2", "units": "ns", "solvent": "CH2Cl2"}], "electrochemical_potentials": [{"value": "1.215", "type": "Eox"}, {"value": "\u20130.874", "type": "Ered"}, {"value": "\u20131.594", "type": "Ered"}], "smiles": [{"alter_name": "BDATA+", "alter_name_confidence": 0.9730250239372253, "alter_name_not_original": "False", "pubchem_name_check": [], "alter_smiles": "CC1CC=c2c3c1ccc1c3[Co]3c4c2cccc4n(c2c3c(n1C)ccc2)C", "alter_smiles_confidence": 2.72853, "pubchem_smiles_check": [{"formula": null, "smiles": "CC1CC=C2C3=[C-]C(=CC=C3)N(C4=[C-]C(=CC=C4)N(C5=[C-]C2=C1C=C5)C)C.[Co+3]"}], "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/25c05033-1f1f-4eb4-ba08-2c5263cfdebb.png", "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/01046f0f-c903-445b-8c0a-aeb0b3cbcbef.png", "sub_image_id_mongodb": "6514631b69298ec0915f6d1f", "openbabel_image_id_mongodb": "6514631b69298ec0915f6d21"}]}, {"names": ["CAOTA+", "CAOTA +"], "electrochemical_potentials": [{"value": "1.723", "type": "Eox"}, {"value": "\u20130.652", "type": "Ered"}], "smiles": [{"alter_name": "CAOTA+", "alter_name_confidence": 0.9940845492565131, "alter_name_not_original": "True", "pubchem_name_check": [], "alter_smiles": "CN1c2cccc3c2[Co]2c4c1cccc4C(c1c2c(O3)ccc1)(C)C", "alter_smiles_confidence": 3.59508, "pubchem_smiles_check": [{"formula": null, "smiles": "CC1(C2=[C-]C(=CC=C2)N(C3=[C-]C(=CC=C3)OC4=CC=CC1=[C-]4)C)C.[Co+3]"}], "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/d36533b2-18ac-4178-a6c7-b8242ea0df96.png", "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/8792c145-f6bf-4c7e-af94-fe2574a3304b.png", "sub_image_id_mongodb": "6514632069298ec0915f6d23", "openbabel_image_id_mongodb": "6514632069298ec0915f6d25"}]}, {"names": ["11-Methoxy-3,7-dimethyl-3,7-dihydrobenzo[a]quinolino[2,3,4-kl]acridinium Hexafluorophosphate"], "uvvis_spectra": [{"solvent": "CH2Cl2", "apparatus": "PerkinElmer Lambda 1050 UV", "peaks": [{"value": "613", "units": "nm"}]}], "quantum_yields": [{"value": "0.35", "solvent": "CH2Cl2", "type": "\u03a6f"}], "fluorescence_lifetimes": [{"value": "12.7", "units": "ns", "solvent": "CH2Cl2"}], "electrochemical_potentials": [{"value": "1.265", "type": "Eox"}, {"value": "1.941", "type": "Eox"}, {"value": "\u20130.799", "type": "Ered"}, {"value": "\u20131.544", "type": "Ered"}], "smiles": "F[P-](F)(F)(F)(F)F.COC=1C2=C(C=CC1)N(C=1C=CC=C3[NH+](C4=CCC5=C(C4=C2C13)C=CC=C5)C)C"}, {"names": ["Benzo[a]chromeno[2,3,4-kl]xanthenium Hexafluorophosphate"], "uvvis_spectra": [{"solvent": "CH2Cl2", "apparatus": "PerkinElmer Lambda 1050 UV", "peaks": [{"value": "564", "units": "nm"}]}], "quantum_yields": [{"value": "0.18", "solvent": "CH2Cl2", "type": "\u03a6f"}], "fluorescence_lifetimes": [{"value": "6.6", "units": "ns", "solvent": "CH2Cl2"}], "electrochemical_potentials": [{"value": "2.190", "type": "Eox"}, {"value": "\u20130.121", "type": "Ered"}], "smiles": "F[P-](F)(F)(F)(F)F.C1=C2C(=C3C4=C5C(=CC=CC5=[O+]C3=C1)OC=1C=CC=CC14)C=CC=C2"}, {"names": ["3,7-Dimethyl-3,7-dihydrobenzo[a]quinolino[2,3,4-kl]acridinium Hexafluorophosphate"], "uvvis_spectra": [{"solvent": "CH2Cl2", "apparatus": "PerkinElmer Lambda 1050 UV", "peaks": [{"value": "614", "units": "nm"}]}], "quantum_yields": [{"value": "0.31", "solvent": "CH2Cl2", "type": "\u03a6f"}], "fluorescence_lifetimes": [{"value": "10.2", "units": "ns", "solvent": "CH2Cl2"}], "electrochemical_potentials": [{"value": "1.287", "type": "Eox"}, {"value": "\u20130.782", "type": "Ered"}], "smiles": "F[P-](F)(F)(F)(F)F.C[NH+]1C2=CCC3=C(C2=C2C4=C(C=CC=C14)N(C=1C=CC=CC12)C)C=CC=C3"}, {"names": ["CDATA+", "CDATA +"], "electrochemical_potentials": [{"value": "1.290", "type": "Eox"}, {"value": "\u20130.871", "type": "Ered"}, {"value": "\u20131.615", "type": "Ered"}], "smiles": [{"alter_name": "CDATA+", "alter_name_confidence": 0.9486436771513951, "alter_name_not_original": "True", "pubchem_name_check": [], "alter_smiles": "CN1c2cccc3c2[Co]2c4c1cccc4C(c1c2c(N3C)ccc1)(C)C", "alter_smiles_confidence": 3.242, "pubchem_smiles_check": [{"formula": null, "smiles": "CC1(C2=[C-]C(=CC=C2)N(C3=[C-]C(=CC=C3)N(C4=CC=CC1=[C-]4)C)C)C.[Co+3]"}], "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/1fb32234-f0bc-4880-b769-61fa1c1c3c71.png", "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/a928f489-0309-4fb1-be23-e2a39b9ed737.png", "sub_image_id_mongodb": "6514632569298ec0915f6d27", "openbabel_image_id_mongodb": "6514632669298ec0915f6d29"}]}]}]
+[
+  {
+    "biblio": {
+      "doi": "10.1021/acs.joc.8b02978",
+      "doi": "10.1021/acs.joc.8b02978",
+      "published_date": "2019-01-29T00:00:00"
+    },
+    "records": [
+      {
+        "names": [
+          "CDOTA +"
+        ],
+        "electrochemical_potentials": [
+          {
+            "value": "\u20130.299",
+            "type": "Ered"
+          }
+        ],
+        "smiles": [
+          {
+            "alter_name": "CDOTA+",
+            "alter_name_confidence": 0.912600040435791,
+            "alter_name_not_original": "True",
+            "pubchem_name_check": [],
+            "alter_smiles": "CC1(C)c2cccc3c2[Co]2c4c1cccc4Oc1c2c(O3)ccc1",
+            "alter_smiles_confidence": 3.48556,
+            "pubchem_smiles_check": [
+              {
+                "formula": null,
+                "smiles": "CC1(C2=[C-]C(=CC=C2)OC3=[C-]C(=CC=C3)OC4=CC=CC1=[C-]4)C.[Co+3]"
+              }
+            ],
+            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/fc3babc0-9c25-4fa4-bb58-d38cca19d9bc.png",
+            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/fc3babc0-9c25-4fa4-bb58-d38cca19d9bc.png",
+            "sub_image_id_mongodb": "65146960d896ed0c2756e468",
+            "openbabel_image_id_mongodb": "65146960d896ed0c2756e46a"
+          }
+        ]
+      },
+      {
+        "names": [
+          "ADOTA + b"
+        ],
+        "electrochemical_potentials": [
+          {
+            "value": "1.814",
+            "type": "Eox"
+          },
+          {
+            "value": "\u20130.559",
+            "type": "Ered"
+          }
+        ],
+        "smiles": [
+          {
+            "alter_name": "ADOTA+(ADOTA*)",
+            "alter_name_confidence": 0.9450149536132812,
+            "alter_name_not_original": "True",
+            "pubchem_name_check": [],
+            "alter_smiles": "Cn1c2cccc3c2[Co]2c4c1cccc4oc1c2c(o3)ccc1",
+            "alter_smiles_confidence": 4.07015,
+            "pubchem_smiles_check": [
+              {
+                "formula": null,
+                "smiles": "CN1C2=[C-]C(=CC=C2)OC3=[C-]C(=CC=C3)OC4=CC=CC1=[C-]4.[Co+3]"
+              }
+            ],
+            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/1818d240-ede4-49ae-842e-eb72961bd400.png",
+            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/1818d240-ede4-49ae-842e-eb72961bd400.png",
+            "sub_image_id_mongodb": "65146966d896ed0c2756e46c",
+            "openbabel_image_id_mongodb": "65146967d896ed0c2756e46e"
+          }
+        ]
+      },
+      {
+        "names": [
+          "DAOTA + b"
+        ],
+        "electrochemical_potentials": [
+          {
+            "value": "1.108",
+            "type": "Eox"
+          },
+          {
+            "value": "1.443",
+            "type": "Eox"
+          },
+          {
+            "value": "\u20130.958",
+            "type": "Ered"
+          }
+        ],
+        "smiles": [
+          {
+            "alter_name": "DAOTA*",
+            "alter_name_confidence": 0.9654059410095215,
+            "alter_name_not_original": "False",
+            "pubchem_name_check": [],
+            "alter_smiles": "Cn1c2cccc3c2[Co]2c4c1cccc4n(c1c2c(o3)ccc1)C",
+            "alter_smiles_confidence": 3.25446,
+            "pubchem_smiles_check": [
+              {
+                "formula": null,
+                "smiles": "CN1C2=[C-]C(=CC=C2)N(C3=[C-]C(=CC=C3)OC4=CC=CC1=[C-]4)C.[Co+3]"
+              }
+            ],
+            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/3fe3bd6d-7946-486c-af41-513a5053843e.png",
+            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/3fe3bd6d-7946-486c-af41-513a5053843e.png",
+            "sub_image_id_mongodb": "6514696dd896ed0c2756e470",
+            "openbabel_image_id_mongodb": "6514696dd896ed0c2756e472"
+          }
+        ]
+      },
+      {
+        "names": [
+          "CDOTA + b"
+        ],
+        "uvvis_spectra": [
+          {
+            "solvent": "CH2Cl2",
+            "apparatus": "PerkinElmer Lambda 1050 UV",
+            "peaks": [
+              {
+                "value": "535",
+                "units": "nm"
+              }
+            ]
+          }
+        ],
+        "quantum_yields": [
+          {
+            "value": "0.54",
+            "solvent": "CH2Cl2",
+            "type": "\u03a6f"
+          }
+        ],
+        "fluorescence_lifetimes": [
+          {
+            "value": "23.1",
+            "units": "ns",
+            "solvent": "CH2Cl2"
+          }
+        ],
+        "smiles": [
+          {
+            "alter_name": "CDOTA+",
+            "alter_name_confidence": 0.912600040435791,
+            "alter_name_not_original": "True",
+            "pubchem_name_check": [],
+            "alter_smiles": "CC1(C)c2cccc3c2[Co]2c4c1cccc4Oc1c2c(O3)ccc1",
+            "alter_smiles_confidence": 3.48556,
+            "pubchem_smiles_check": [
+              {
+                "formula": null,
+                "smiles": "CC1(C2=[C-]C(=CC=C2)OC3=[C-]C(=CC=C3)OC4=CC=CC1=[C-]4)C.[Co+3]"
+              }
+            ],
+            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/d436c1fc-64e9-47bb-80c0-e34a3fb71eb9.png",
+            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/d436c1fc-64e9-47bb-80c0-e34a3fb71eb9.png",
+            "sub_image_id_mongodb": "65146973d896ed0c2756e474",
+            "openbabel_image_id_mongodb": "65146974d896ed0c2756e476"
+          }
+        ]
+      },
+      {
+        "names": [
+          "CDATA + b"
+        ],
+        "uvvis_spectra": [
+          {
+            "solvent": "CH2Cl2",
+            "apparatus": "PerkinElmer Lambda 1050 UV",
+            "peaks": [
+              {
+                "value": "603",
+                "units": "nm"
+              }
+            ]
+          }
+        ],
+        "quantum_yields": [
+          {
+            "value": "0.61",
+            "solvent": "CH2Cl2",
+            "type": "\u03a6f"
+          }
+        ],
+        "fluorescence_lifetimes": [
+          {
+            "value": "15.8",
+            "units": "ns",
+            "solvent": "CH2Cl2"
+          }
+        ],
+        "smiles": [
+          {
+            "alter_name": "CDATA+",
+            "alter_name_confidence": 0.9486436771513951,
+            "alter_name_not_original": "True",
+            "pubchem_name_check": [],
+            "alter_smiles": "CN1c2cccc3c2[Co]2c4c1cccc4C(c1c2c(N3C)ccc1)(C)C",
+            "alter_smiles_confidence": 3.242,
+            "pubchem_smiles_check": [
+              {
+                "formula": null,
+                "smiles": "CC1(C2=[C-]C(=CC=C2)N(C3=[C-]C(=CC=C3)N(C4=CC=CC1=[C-]4)C)C)C.[Co+3]"
+              }
+            ],
+            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/d6840045-000a-42c5-9fb9-318ae4303c8c.png",
+            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/d6840045-000a-42c5-9fb9-318ae4303c8c.png",
+            "sub_image_id_mongodb": "6514697ad896ed0c2756e478",
+            "openbabel_image_id_mongodb": "6514697ad896ed0c2756e47a"
+          }
+        ]
+      },
+      {
+        "names": [
+          "4 ( BDOTA + )"
+        ],
+        "uvvis_spectra": [
+          {
+            "solvent": "CH2Cl2",
+            "apparatus": "PerkinElmer Lambda 1050 UV",
+            "peaks": [
+              {
+                "value": "578",
+                "units": "nm"
+              }
+            ]
+          }
+        ],
+        "quantum_yields": [
+          {
+            "value": "0.78",
+            "solvent": "CH2Cl2",
+            "type": "\u03a6f"
+          }
+        ],
+        "fluorescence_lifetimes": [
+          {
+            "value": "20.2",
+            "units": "ns",
+            "solvent": "CH2Cl2"
+          }
+        ],
+        "electrochemical_potentials": [
+          {
+            "value": "2.060",
+            "type": "Eox"
+          },
+          {
+            "value": "\u20130.226",
+            "type": "Ered"
+          },
+          {
+            "value": "\u20131.233",
+            "type": "Ered"
+          }
+        ],
+        "smiles": [
+          {
+            "alter_name": "BDOTA+",
+            "alter_name_confidence": 0.9470908641815186,
+            "alter_name_not_original": "False",
+            "pubchem_name_check": [],
+            "alter_smiles": "c1cc2ccc3c4c2c(c1)c1cccc2c1[Co]4c1c(o3)cccc1o2",
+            "alter_smiles_confidence": 3.27661,
+            "pubchem_smiles_check": [
+              {
+                "formula": null,
+                "smiles": "C1=CC2=C3[C-]=C(C=C2)OC4=CC=CC(=[C-]4)OC5=CC=CC(=[C-]5)C3=C1.[Co+3]"
+              }
+            ],
+            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/4f20a5e4-c886-4d58-9758-0e798e7f7501.png",
+            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/4f20a5e4-c886-4d58-9758-0e798e7f7501.png",
+            "sub_image_id_mongodb": "65146982d896ed0c2756e47c",
+            "openbabel_image_id_mongodb": "65146983d896ed0c2756e47e"
+          }
+        ]
+      },
+      {
+        "names": [
+          "14 ( BDATA + )"
+        ],
+        "uvvis_spectra": [
+          {
+            "solvent": "CH2Cl2",
+            "apparatus": "PerkinElmer Lambda 1050 UV",
+            "peaks": [
+              {
+                "value": "625",
+                "units": "nm"
+              }
+            ]
+          }
+        ],
+        "quantum_yields": [
+          {
+            "value": "0.30",
+            "solvent": "CH2Cl2",
+            "type": "\u03a6f"
+          }
+        ],
+        "fluorescence_lifetimes": [
+          {
+            "value": "12.2",
+            "units": "ns",
+            "solvent": "CH2Cl2"
+          }
+        ],
+        "electrochemical_potentials": [
+          {
+            "value": "1.215",
+            "type": "Eox"
+          },
+          {
+            "value": "\u20130.874",
+            "type": "Ered"
+          },
+          {
+            "value": "\u20131.594",
+            "type": "Ered"
+          }
+        ],
+        "smiles": [
+          {
+            "alter_name": "BDATA+",
+            "alter_name_confidence": 0.9730250239372253,
+            "alter_name_not_original": "False",
+            "pubchem_name_check": [],
+            "alter_smiles": "CC1CC=c2c3c1ccc1c3[Co]3c4c2cccc4n(c2c3c(n1C)ccc2)C",
+            "alter_smiles_confidence": 2.72853,
+            "pubchem_smiles_check": [
+              {
+                "formula": null,
+                "smiles": "CC1CC=C2C3=[C-]C(=CC=C3)N(C4=[C-]C(=CC=C4)N(C5=[C-]C2=C1C=C5)C)C.[Co+3]"
+              }
+            ],
+            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/bbeeb6b3-4b2c-4fea-a626-2a05dba4a1f9.png",
+            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/bbeeb6b3-4b2c-4fea-a626-2a05dba4a1f9.png",
+            "sub_image_id_mongodb": "6514698ad896ed0c2756e480",
+            "openbabel_image_id_mongodb": "6514698ad896ed0c2756e482"
+          }
+        ]
+      },
+      {
+        "names": [
+          "CAOTA+",
+          "CAOTA +"
+        ],
+        "electrochemical_potentials": [
+          {
+            "value": "1.723",
+            "type": "Eox"
+          },
+          {
+            "value": "\u20130.652",
+            "type": "Ered"
+          }
+        ],
+        "smiles": [
+          {
+            "alter_name": "CAOTA+",
+            "alter_name_confidence": 0.9940845492565131,
+            "alter_name_not_original": "True",
+            "pubchem_name_check": [],
+            "alter_smiles": "CN1c2cccc3c2[Co]2c4c1cccc4C(c1c2c(O3)ccc1)(C)C",
+            "alter_smiles_confidence": 3.59508,
+            "pubchem_smiles_check": [
+              {
+                "formula": null,
+                "smiles": "CC1(C2=[C-]C(=CC=C2)N(C3=[C-]C(=CC=C3)OC4=CC=CC1=[C-]4)C)C.[Co+3]"
+              }
+            ],
+            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/921a10d0-ac35-4691-8e18-a7b7fdceb79a.png",
+            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/921a10d0-ac35-4691-8e18-a7b7fdceb79a.png",
+            "sub_image_id_mongodb": "6514698fd896ed0c2756e484",
+            "openbabel_image_id_mongodb": "6514698fd896ed0c2756e486"
+          }
+        ]
+      },
+      {
+        "names": [
+          "11-Methoxy-3,7-dimethyl-3,7-dihydrobenzo[a]quinolino[2,3,4-kl]acridinium Hexafluorophosphate"
+        ],
+        "uvvis_spectra": [
+          {
+            "solvent": "CH2Cl2",
+            "apparatus": "PerkinElmer Lambda 1050 UV",
+            "peaks": [
+              {
+                "value": "613",
+                "units": "nm"
+              }
+            ]
+          }
+        ],
+        "quantum_yields": [
+          {
+            "value": "0.35",
+            "solvent": "CH2Cl2",
+            "type": "\u03a6f"
+          }
+        ],
+        "fluorescence_lifetimes": [
+          {
+            "value": "12.7",
+            "units": "ns",
+            "solvent": "CH2Cl2"
+          }
+        ],
+        "electrochemical_potentials": [
+          {
+            "value": "1.265",
+            "type": "Eox"
+          },
+          {
+            "value": "1.941",
+            "type": "Eox"
+          },
+          {
+            "value": "\u20130.799",
+            "type": "Ered"
+          },
+          {
+            "value": "\u20131.544",
+            "type": "Ered"
+          }
+        ],
+        "smiles": "F[P-](F)(F)(F)(F)F.COC=1C2=C(C=CC1)N(C=1C=CC=C3[NH+](C4=CCC5=C(C4=C2C13)C=CC=C5)C)C"
+      },
+      {
+        "names": [
+          "Benzo[a]chromeno[2,3,4-kl]xanthenium Hexafluorophosphate"
+        ],
+        "uvvis_spectra": [
+          {
+            "solvent": "CH2Cl2",
+            "apparatus": "PerkinElmer Lambda 1050 UV",
+            "peaks": [
+              {
+                "value": "564",
+                "units": "nm"
+              }
+            ]
+          }
+        ],
+        "quantum_yields": [
+          {
+            "value": "0.18",
+            "solvent": "CH2Cl2",
+            "type": "\u03a6f"
+          }
+        ],
+        "fluorescence_lifetimes": [
+          {
+            "value": "6.6",
+            "units": "ns",
+            "solvent": "CH2Cl2"
+          }
+        ],
+        "electrochemical_potentials": [
+          {
+            "value": "2.190",
+            "type": "Eox"
+          },
+          {
+            "value": "\u20130.121",
+            "type": "Ered"
+          }
+        ],
+        "smiles": "F[P-](F)(F)(F)(F)F.C1=C2C(=C3C4=C5C(=CC=CC5=[O+]C3=C1)OC=1C=CC=CC14)C=CC=C2"
+      },
+      {
+        "names": [
+          "3,7-Dimethyl-3,7-dihydrobenzo[a]quinolino[2,3,4-kl]acridinium Hexafluorophosphate"
+        ],
+        "uvvis_spectra": [
+          {
+            "solvent": "CH2Cl2",
+            "apparatus": "PerkinElmer Lambda 1050 UV",
+            "peaks": [
+              {
+                "value": "614",
+                "units": "nm"
+              }
+            ]
+          }
+        ],
+        "quantum_yields": [
+          {
+            "value": "0.31",
+            "solvent": "CH2Cl2",
+            "type": "\u03a6f"
+          }
+        ],
+        "fluorescence_lifetimes": [
+          {
+            "value": "10.2",
+            "units": "ns",
+            "solvent": "CH2Cl2"
+          }
+        ],
+        "electrochemical_potentials": [
+          {
+            "value": "1.287",
+            "type": "Eox"
+          },
+          {
+            "value": "\u20130.782",
+            "type": "Ered"
+          }
+        ],
+        "smiles": "F[P-](F)(F)(F)(F)F.C[NH+]1C2=CCC3=C(C2=C2C4=C(C=CC=C14)N(C=1C=CC=CC12)C)C=CC=C3"
+      },
+      {
+        "names": [
+          "CDATA+",
+          "CDATA +"
+        ],
+        "electrochemical_potentials": [
+          {
+            "value": "1.290",
+            "type": "Eox"
+          },
+          {
+            "value": "\u20130.871",
+            "type": "Ered"
+          },
+          {
+            "value": "\u20131.615",
+            "type": "Ered"
+          }
+        ],
+        "smiles": [
+          {
+            "alter_name": "CDATA+",
+            "alter_name_confidence": 0.9486436771513951,
+            "alter_name_not_original": "True",
+            "pubchem_name_check": [],
+            "alter_smiles": "CN1c2cccc3c2[Co]2c4c1cccc4C(c1c2c(N3C)ccc1)(C)C",
+            "alter_smiles_confidence": 3.242,
+            "pubchem_smiles_check": [
+              {
+                "formula": null,
+                "smiles": "CC1(C2=[C-]C(=CC=C2)N(C3=[C-]C(=CC=C3)N(C4=CC=CC1=[C-]4)C)C)C.[Co+3]"
+              }
+            ],
+            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/c48030bd-bb80-4324-9eb3-e7b014e66999.png",
+            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/c48030bd-bb80-4324-9eb3-e7b014e66999.png",
+            "sub_image_id_mongodb": "65146995d896ed0c2756e488",
+            "openbabel_image_id_mongodb": "65146995d896ed0c2756e48a"
+          }
+        ]
+      }
+    ]
+  }
+]

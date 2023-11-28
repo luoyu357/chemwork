@@ -211,7 +211,7 @@ def unique_label(ocr, paddle):
                 break
     return output + ocr + paddle
 
-
+'''
 if __name__ == '__main__':
     easy = read_name_from_image_easyocr('../image/in/8.png', 0.9)
     paddle = read_name_from_image_paddle('../image/in/8.png', 0.9)
@@ -225,3 +225,5 @@ if __name__ == '__main__':
 
     for i in final:
         print(i)
+
+'''
