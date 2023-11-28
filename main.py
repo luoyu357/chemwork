@@ -126,7 +126,7 @@ def add_structures(result, label_smiles):
     return result
 
 
-def process(collection, config):
+def process(collection_name, config):
     for path in pathlib.Path(config.get("file", "input_dir")).iterdir():
         if path.is_file() and not path.stem.startswith('.'):
             f_name = path.stem
@@ -190,7 +190,7 @@ def process(collection, config):
                     json.dump(final, f_output)
 
                 print('wrote to json file successfully')
-                collection.insert_one(result)
+                collection_name.insert_one(result)
                 print('wrote to mongodb successfully')
 
 
