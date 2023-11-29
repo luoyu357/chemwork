@@ -29,6 +29,7 @@ from image.photo_capture import capture_image
 from mongodb.store import store
 from utili.alignment import combine_smiles_label
 from utili.convert_smiles_string_to_image import convert_string_to_structure
+from utili.delete_file import delete_all
 from utili.ocr import *
 from utili.osra import *
 from utili.pubchem import pubchem
@@ -61,14 +62,11 @@ def add_structures(result, label_smiles):
             for name in record.get('names', []):
                 if 'smiles' not in record:
                     if structures[i]:
-                        print(name, " related smiles ", structures[i])
                         #print(f'Resolved with OPSIN: %s = %s', name, structures[i])
                         record['smiles'] = structures[i]
                     else:
 
                         smiles = cirpy.resolve(chem_normalize(name.rstrip("\n\r")).encode('utf-8'), 'smiles')
-
-                        print(name, ' related smiles ', smiles)
 
                         if smiles:
                             record['smiles'] = smiles
@@ -83,7 +81,6 @@ def add_structures(result, label_smiles):
                                         delete_label_smile = label_smile
                                         max_score = similarity_score
 
-                            print(delete_label_smile)
                             if len(delete_label_smile) > 0:
                                 pubchem_name_text = smile_name_checker.searchCompoundName(name)
                                 pubchem_name_label = smile_name_checker.searchCompoundName(delete_label_smile[6])
@@ -149,7 +146,8 @@ def process(collection_name, config):
                 final_result = []
 
                 for image_path in pathlib.Path(image_in_path).iterdir():
-                    if image_path.is_file() and not path.stem.startswith('.'):
+                    if image_path.is_file() and not image_path.stem.startswith('.'):
+                        print(image_path)
                         easy = read_name_from_image_easyocr(str(image_path), 0.9)
                         paddle = read_name_from_image_paddle(str(image_path), 0.9)
 
@@ -160,9 +158,6 @@ def process(collection_name, config):
 
                         final_ocr = combine_separated_label_ocr(unique)
 
-                        for i in final_ocr:
-                            print(i)
-
                         osra = runOsraSmiles(inputPath=image_in_path,
                                              outputPath=config.get('file', 'smiles_dir'),
                                              outputName=image_path.stem+'.smi', inputName=image_path.stem+'.png')
@@ -172,8 +167,7 @@ def process(collection_name, config):
 
                         final_result+=result
 
-                for i in final_result:
-                    print(i)
+
                 records = apply_rules(doc.records.serialize(), config)
 
                 # records = natsort.natsorted(records,
@@ -184,7 +178,6 @@ def process(collection_name, config):
                 result = {'biblio': transform_biblio(biblio), 'records': records}
                 result = add_structures(result, final_result)
                 final = [result]
-                pprint(final)
 
                 with open(config.get("file", "output_dir") + f_name + '.json', 'w', encoding='utf-8') as f_output:
                     json.dump(final, f_output)
@@ -192,11 +185,13 @@ def process(collection_name, config):
                 print('wrote to json file successfully')
                 collection_name.insert_one(result)
                 print('wrote to mongodb successfully')
+                delete_all(image_in_path)
 
 
 if __name__ == '__main__':
     config = configparser.ConfigParser()
     config.read("config.ini")
+
     # cirpy.API_BASE = 'https://cactus.nci.nih.gov/chemical/structure'
     client = MongoClient(config.get("database", "mongodb_uri"))
     db = client[config.get("database", "db")]

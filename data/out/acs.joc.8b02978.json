@@ -2,7 +2,6 @@
   {
     "biblio": {
       "doi": "10.1021/acs.joc.8b02978",
-      "doi": "10.1021/acs.joc.8b02978",
       "published_date": "2019-01-29T00:00:00"
     },
     "records": [
@@ -30,10 +29,10 @@
                 "smiles": "CC1(C2=[C-]C(=CC=C2)OC3=[C-]C(=CC=C3)OC4=CC=CC1=[C-]4)C.[Co+3]"
               }
             ],
-            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/fc3babc0-9c25-4fa4-bb58-d38cca19d9bc.png",
-            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/fc3babc0-9c25-4fa4-bb58-d38cca19d9bc.png",
-            "sub_image_id_mongodb": "65146960d896ed0c2756e468",
-            "openbabel_image_id_mongodb": "65146960d896ed0c2756e46a"
+            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/bc05412e-26b2-473e-b52f-96b92d4f4a32.png",
+            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/bc05412e-26b2-473e-b52f-96b92d4f4a32.png",
+            "sub_image_id_mongodb": "6566909cf89411bd8490ac35",
+            "openbabel_image_id_mongodb": "6566909df89411bd8490ac37"
           }
         ]
       },
@@ -65,10 +64,10 @@
                 "smiles": "CN1C2=[C-]C(=CC=C2)OC3=[C-]C(=CC=C3)OC4=CC=CC1=[C-]4.[Co+3]"
               }
             ],
-            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/1818d240-ede4-49ae-842e-eb72961bd400.png",
-            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/1818d240-ede4-49ae-842e-eb72961bd400.png",
-            "sub_image_id_mongodb": "65146966d896ed0c2756e46c",
-            "openbabel_image_id_mongodb": "65146967d896ed0c2756e46e"
+            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/73c18dbb-6119-4bf9-a05b-3485658e0a03.png",
+            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/73c18dbb-6119-4bf9-a05b-3485658e0a03.png",
+            "sub_image_id_mongodb": "656690a8f89411bd8490ac39",
+            "openbabel_image_id_mongodb": "656690a9f89411bd8490ac3b"
           }
         ]
       },
@@ -104,10 +103,10 @@
                 "smiles": "CN1C2=[C-]C(=CC=C2)N(C3=[C-]C(=CC=C3)OC4=CC=CC1=[C-]4)C.[Co+3]"
               }
             ],
-            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/3fe3bd6d-7946-486c-af41-513a5053843e.png",
-            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/3fe3bd6d-7946-486c-af41-513a5053843e.png",
-            "sub_image_id_mongodb": "6514696dd896ed0c2756e470",
-            "openbabel_image_id_mongodb": "6514696dd896ed0c2756e472"
+            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/d4523221-f6f5-4ddf-bc3c-0f1c83ce090c.png",
+            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/d4523221-f6f5-4ddf-bc3c-0f1c83ce090c.png",
+            "sub_image_id_mongodb": "656690b5f89411bd8490ac3d",
+            "openbabel_image_id_mongodb": "656690b5f89411bd8490ac3f"
           }
         ]
       },
@@ -155,10 +154,10 @@
                 "smiles": "CC1(C2=[C-]C(=CC=C2)OC3=[C-]C(=CC=C3)OC4=CC=CC1=[C-]4)C.[Co+3]"
               }
             ],
-            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/d436c1fc-64e9-47bb-80c0-e34a3fb71eb9.png",
-            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/d436c1fc-64e9-47bb-80c0-e34a3fb71eb9.png",
-            "sub_image_id_mongodb": "65146973d896ed0c2756e474",
-            "openbabel_image_id_mongodb": "65146974d896ed0c2756e476"
+            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/26334a74-854a-41f6-a041-43a51bea664d.png",
+            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/26334a74-854a-41f6-a041-43a51bea664d.png",
+            "sub_image_id_mongodb": "656690c1f89411bd8490ac41",
+            "openbabel_image_id_mongodb": "656690c1f89411bd8490ac43"
           }
         ]
       },
@@ -206,10 +205,10 @@
                 "smiles": "CC1(C2=[C-]C(=CC=C2)N(C3=[C-]C(=CC=C3)N(C4=CC=CC1=[C-]4)C)C)C.[Co+3]"
               }
             ],
-            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/d6840045-000a-42c5-9fb9-318ae4303c8c.png",
-            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/d6840045-000a-42c5-9fb9-318ae4303c8c.png",
-            "sub_image_id_mongodb": "6514697ad896ed0c2756e478",
-            "openbabel_image_id_mongodb": "6514697ad896ed0c2756e47a"
+            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/f911b349-554b-479c-97b2-d2f6c9bf7e26.png",
+            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/f911b349-554b-479c-97b2-d2f6c9bf7e26.png",
+            "sub_image_id_mongodb": "656690cdf89411bd8490ac45",
+            "openbabel_image_id_mongodb": "656690cdf89411bd8490ac47"
           }
         ]
       },
@@ -259,8 +258,8 @@
         ],
         "smiles": [
           {
-            "alter_name": "BDOTA+",
-            "alter_name_confidence": 0.9470908641815186,
+            "alter_name": "4",
+            "alter_name_confidence": 0.9998148083686829,
             "alter_name_not_original": "False",
             "pubchem_name_check": [],
             "alter_smiles": "c1cc2ccc3c4c2c(c1)c1cccc2c1[Co]4c1c(o3)cccc1o2",
@@ -271,10 +270,10 @@
                 "smiles": "C1=CC2=C3[C-]=C(C=C2)OC4=CC=CC(=[C-]4)OC5=CC=CC(=[C-]5)C3=C1.[Co+3]"
               }
             ],
-            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/4f20a5e4-c886-4d58-9758-0e798e7f7501.png",
-            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/4f20a5e4-c886-4d58-9758-0e798e7f7501.png",
-            "sub_image_id_mongodb": "65146982d896ed0c2756e47c",
-            "openbabel_image_id_mongodb": "65146983d896ed0c2756e47e"
+            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/75a2777c-7764-4447-ac77-ff06133949a7.png",
+            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/75a2777c-7764-4447-ac77-ff06133949a7.png",
+            "sub_image_id_mongodb": "656690dbf89411bd8490ac49",
+            "openbabel_image_id_mongodb": "656690dbf89411bd8490ac4b"
           }
         ]
       },
@@ -324,22 +323,22 @@
         ],
         "smiles": [
           {
-            "alter_name": "BDATA+",
-            "alter_name_confidence": 0.9730250239372253,
+            "alter_name": "14",
+            "alter_name_confidence": 0.9999552369117737,
             "alter_name_not_original": "False",
             "pubchem_name_check": [],
-            "alter_smiles": "CC1CC=c2c3c1ccc1c3[Co]3c4c2cccc4n(c2c3c(n1C)ccc2)C",
-            "alter_smiles_confidence": 2.72853,
+            "alter_smiles": "Cn1c2cccc3c2[Co]2c4c1cccc4n(c1c2c2c3cccc2cc1)C",
+            "alter_smiles_confidence": 3.95826,
             "pubchem_smiles_check": [
               {
                 "formula": null,
-                "smiles": "CC1CC=C2C3=[C-]C(=CC=C3)N(C4=[C-]C(=CC=C4)N(C5=[C-]C2=C1C=C5)C)C.[Co+3]"
+                "smiles": "CN1C2=[C-]C(=CC=C2)N(C3=[C-]C4=C(C=CC=C4C5=[C-]C1=CC=C5)C=C3)C.[Co+3]"
               }
             ],
-            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/bbeeb6b3-4b2c-4fea-a626-2a05dba4a1f9.png",
-            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/bbeeb6b3-4b2c-4fea-a626-2a05dba4a1f9.png",
-            "sub_image_id_mongodb": "6514698ad896ed0c2756e480",
-            "openbabel_image_id_mongodb": "6514698ad896ed0c2756e482"
+            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/e3dd076c-98f1-42ac-bcad-1ca54da471fa.png",
+            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/e3dd076c-98f1-42ac-bcad-1ca54da471fa.png",
+            "sub_image_id_mongodb": "656690e9f89411bd8490ac4d",
+            "openbabel_image_id_mongodb": "656690e9f89411bd8490ac4f"
           }
         ]
       },
@@ -372,10 +371,10 @@
                 "smiles": "CC1(C2=[C-]C(=CC=C2)N(C3=[C-]C(=CC=C3)OC4=CC=CC1=[C-]4)C)C.[Co+3]"
               }
             ],
-            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/921a10d0-ac35-4691-8e18-a7b7fdceb79a.png",
-            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/921a10d0-ac35-4691-8e18-a7b7fdceb79a.png",
-            "sub_image_id_mongodb": "6514698fd896ed0c2756e484",
-            "openbabel_image_id_mongodb": "6514698fd896ed0c2756e486"
+            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/4cedd1f6-d6df-429e-adc7-c87ad8a0b0bd.png",
+            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/4cedd1f6-d6df-429e-adc7-c87ad8a0b0bd.png",
+            "sub_image_id_mongodb": "656690f3f89411bd8490ac51",
+            "openbabel_image_id_mongodb": "656690f4f89411bd8490ac53"
           }
         ]
       },
@@ -546,10 +545,10 @@
                 "smiles": "CC1(C2=[C-]C(=CC=C2)N(C3=[C-]C(=CC=C3)N(C4=CC=CC1=[C-]4)C)C)C.[Co+3]"
               }
             ],
-            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/c48030bd-bb80-4324-9eb3-e7b014e66999.png",
-            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/c48030bd-bb80-4324-9eb3-e7b014e66999.png",
-            "sub_image_id_mongodb": "65146995d896ed0c2756e488",
-            "openbabel_image_id_mongodb": "65146995d896ed0c2756e48a"
+            "sub_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/out/8930d162-3afa-4df9-a388-146e4bb769e1.png",
+            "openbabel_image_path": "/Users/luoyu/PycharmProjects/chemwork/image/remake/8930d162-3afa-4df9-a388-146e4bb769e1.png",
+            "sub_image_id_mongodb": "656690fef89411bd8490ac55",
+            "openbabel_image_id_mongodb": "656690fef89411bd8490ac57"
           }
         ]
       }
