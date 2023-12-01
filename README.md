@@ -23,7 +23,9 @@
 
 `pip install -r requirement.txt`
 
-2. install OpenBabel
+2. install `MongoDB` database
+
+3. install OpenBabel
 
 `brew install open-babel`
 
